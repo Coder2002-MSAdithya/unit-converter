@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unit Converter</title>
+        <link rel="icon" href="unit-converter-logo.png">
+    </head>
+    <body>
+        <header>
+            <h2>Metric/Imperial unit conversion</h2>
+            <div id="conv-value" contenteditable="true">0</div>
+            <small>(Click on the number to edit it)</small>
+        </header>
+        <main>
+            <div class="conv-wrapper">
+                <h3>Length(Meter/Feet)</h3>
+                <p><span id="meters">0</span> meters = <span id="in-feet">0.000</span> feet | 
+                <span id="feet">0</span> feet = <span id="in-meters">0.000</span> meters</p>
+            </div>
+            <div class="conv-wrapper">
+                <h3>Volume(Litres/Gallons)</h3>
+                <p><span id="liters">0</span> liters = <span id="in-gallons">0.000</span> gallons | <span id="gallons">0</span> gallons = <span id="in-liters">0.000</span> liters</p>
+            </div>
+            <div class="conv-wrapper">
+                <h3>Mass(Kilograms/Pounds)</h3>
+                <p><span id="kilos">0</span> kilos = <span id="in-pounds">0.000</span> pounds | <span id="pounds">0</span> pounds = <span id="in-kilos">0.000</span> kilos</p>
+            </div>
+        </main>
+        <script src="index.pack.js"></script>
+    </body>
+</html>
